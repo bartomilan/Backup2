@@ -1,7 +1,7 @@
 FROM wordpress:latest
 
 
-USER root
+USER  root
 
 COPY . /var/www/html
 
